@@ -652,10 +652,10 @@ service secd /system/bin/secd
     socket secd_devsec_sock stream 0660 root drmrpc
     socket secd_credmgr_sock stream 0660 root drmrpc
 
-service iddd /system/bin/iddd
-    class core
-    user root
-    group system drmrpc
+#service iddd /system/bin/iddd
+#    class core
+#    user root
+#    group system drmrpc
 
 
 
